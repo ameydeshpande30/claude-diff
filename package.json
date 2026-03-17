@@ -1,0 +1,29 @@
+{
+  "name": "claude-diff",
+  "version": "2.0.0",
+  "description": "Local undo + IDE integration for Claude Code — no garbage commits",
+  "keywords": ["claude-code", "ai", "git", "undo", "hooks"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/claude-diff"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test tests/claude-diff.test.js",
+    "test:watch": "node --test --watch tests/claude-diff.test.js"
+  },
+  "bin": {
+    "claude-diff": "./claude-diff.js"
+  },
+  "files": [
+    "claude-diff.js",
+    "hooks/",
+    "setup.sh",
+    "setup.ps1",
+    "README.md",
+    "LICENSE"
+  ]
+}
